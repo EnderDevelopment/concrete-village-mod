@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "concretevillagemod",
+    "version": "${version}",
+    "name": "Concrete Village Mod",
+    "description": "A mod that enhances villages with concrete buildings and more villagers.",
+    "authors": ["YourName"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.jonalv429.concretevillagemod.ConcreteVillageMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.21.4"
+    }
+}
